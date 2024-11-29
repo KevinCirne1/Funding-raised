@@ -1,0 +1,20 @@
+# Created at 2024-09-03T17:09:47.099
+org.apache.maven.surefire.api.testset.TestSetFailedException: com.checkr.interviews.FundingRaisedTest
+	at org.apache.maven.surefire.junit.JUnitTestSetExecutor.execute(JUnitTestSetExecutor.java:83)
+	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
+	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:93)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+
+	at com.checkr.interviews.FundingRaisedTest.suite(FundingRaisedTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.createInstanceFromSuiteMethod(JUnit3Reflector.java:133)
+	at org.apache.maven.surefire.common.junit3.JUnit3Reflector.constructTestObject(JUnit3Reflector.java:108)
+	at org.apache.maven.surefire.junit.JUnitTestSetExecutor.execute(JUnitTestSetExecutor.java:59)
+	... 6 more
+
+
